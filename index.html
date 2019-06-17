@@ -1,0 +1,321 @@
+﻿<!doctype html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Доработать -->
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+
+
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+
+    <link rel="image_src" href="" type="image/jpeg">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="">
+    <meta property="og:title" content="">
+    <meta property="og:image" content="">
+    <meta property="og:image:secure_url" content="" />
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta property="og:image:width" content="290" />
+    <meta property="og:image:height" content="299" />
+    <meta property="og:description" content="">
+    <meta property="og:site_name" content="">
+    <meta property="og:locale" content="ru_ru">
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap-select.css">
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/bootstrap-select.js"></script>
+
+
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <script src="js/bootstrap-datepicker.js" type="text/javascript"></script>
+    <script src="js/bootstrap-datepicker.ru.min.js" type="text/javascript"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+
+
+    <link href="css/jquery.kladr.min.css" rel="stylesheet">
+    <script src="js/jquery.kladr.min.js" type="text/javascript"></script>
+    <script src="js/hideShowPassword.min.js"></script>
+    <script src="js/app.js" type="text/javascript"></script>
+
+    <script>
+        // умолчания календаря
+        $.fn.datepicker.defaults.language = 'ru'
+        $.fn.datepicker.defaults.templates = {
+            leftArrow: '<img src="/img/left.svg">',
+            rightArrow: '<img src="/img/right.svg">'
+        }
+        $.fn.datepicker.defaults.immediateUpdates = true;
+    </script>
+
+    <!-- Доработать -->
+
+    <!-- Тайтл -->
+    <title>Аренда спецтехники</title>
+
+</head>
+
+<body>
+
+    <div class="container-fluid p-0" style="max-width: 1440px; position: relative;">
+
+        <!-- Шапка -->
+
+        <div class="container-fluid bg1">&nbsp;</div>
+        <div class="container-fluid bg2"></div>
+        <div class="row no-gutters bg4">
+            <div class="col-2 p-0" style="z-index: 2">
+                <a href="#"><img class="" src="img/logo.png"></a>
+            </div>
+            <div class="col ml-0 ml-lg-3 my-auto mt-lg-n2 align-middle">
+                <div class="head">Аренда<br>спецтехники</div>
+                <div class="title">Найдите нужную <br class="d-inline-block d-md-none">технику за 10 минут</div>
+            </div>
+        </div>
+        <div class="row no-gutters bg3">
+            <div class="col-2 offset-1 text-center pr-3">
+                <a class="btn btn-warning d-none d-lg-inline-block" href="/about">О&nbsp;проекте</a>
+            </div>
+            <div class="col-9 col-lg-8 mt-2 text-right pr-1 pr-sm-4">
+                <nav class="navbar navbar-expand-md navbar-light justify-content-end pr-0">
+                    <div>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse p-2" id="navbarNavDropdown">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link text-dark ml-5" href="/signup/new"><span
+                                            data-feather="user-plus"></span> Регистрация</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-dark ml-5" href="/login"><span data-feather="log-in"></span>
+                                        Войти</a>
+                                </li>
+                                <li class="nav-item d-inline-block d-lg-none">
+                                    <a class="nav-link text-dark ml-5" href="#">О&nbsp;проекте</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+
+        <div class="content">
+
+            <!-- Уведомления -->
+
+            <!-- Основной контент -->
+            <div class="row no-gutters bg-lines d-none d-md-flex">
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col"></div>
+            </div>
+            <div class="row no-gutters text-center">
+                <div class="col-6 col-md-3">
+                    <img class="mb-3" src="img/icon1.png">
+                    <h3>Отфильтруйте предложения</h3>
+                    согласно Вашим потребностям
+                </div>
+                <div class="col-6 col-md-3">
+                    <img class="mb-3" src="img/icon2.png">
+                    <h3>Выберите подходящее</h3>
+                    и оставьте заявку на бронирование
+                </div>
+                <div class="col-6 col-md-3 pt-4 pt-md-0">
+                    <img class="mb-3" src="img/icon3.png">
+                    <h3>Свяжитесь с собственником</h3>
+                    обсудите возможности аренды
+                </div>
+                <div class="col-6 col-md-3 pt-4 pt-md-0">
+                    <img class="mb-3" src="img/icon4.png">
+                    <h3>Пользуйтесь техникой</h3>
+                    и возвращайтесь к нам снова
+                </div>
+            </div>
+
+
+
+
+            <form class="one" method="get" action="/catalog">
+                <div class="col-3 input-effect">
+                    <input class="effect-19"  placeholder="">
+                    <label>Что?
+                        
+                    </label>
+                    <select >
+                            <option>Автовышки</option>
+                            <option>Грейдеры </option>
+                            <option>Траллы</option>
+                            <option>Бульдозеры</option>
+                            <option>Манипуляторы</option>
+                            <option>Бетономешалки</option>
+                            <option>Экскаваторы</option>
+                            <option>Катки</option>
+                            <option>Бензонасосы</option>
+                            <option>Трактора</option>
+                            <option>Подъемные краны</option>
+                            <option>Погрузчики</option>
+                            <option>Скрепперы</option>
+                            <option>Самосвалы</option>
+                            <option>Грузовики</option>
+                        </select>
+                    <span class="focus-border">
+                        <i></i>
+                    </span>
+                    
+                </div>
+
+                <div class="col-5 input-effect">
+                    <input class="effect-19" type="text" placeholder="190000, г. Санкт-Петербург">
+                    <label>Где?</label>
+                    <span class="focus-border">
+                        <i></i>
+                    </span>
+                </div>
+
+                <div class="col-3 input-effect">
+                    <input class="effect-19" placeholder="дд.мм.гг" type="date" name="date" class="form-control form-control-lg">
+                    <label>Когда?</label>
+                    <span class="focus-border">
+                        <i></i>
+                    </span>
+                </div>
+
+                <div class="col-1 input-effect">
+                    <input class="effect-19 days" type="number" min="1" max="14" placeholder="" name="days">
+                    <label>Дни</label>
+                    <span class="focus-border">
+                        <i></i>
+                    </span>
+                </div>
+
+                <div class="col col-lg-auto">
+                    <button class="btn btn-primary btn-lg">Найти</button>
+                </div>
+            </form>
+
+            <h1 class="text-center my-5 py-5">Лучшие предложения в вашем городе</h1>
+
+            <div class="row no-gutters mx-auto mx-md-n2" id="banners">
+                <div class="col-12 col-md-6 col-lg-4 px-2 py-2">
+                    <div class="card card-banner text-white align-middle">
+                        <img src="img/banner1.png" class="card-img">
+                        <div class="card-img-overlay align-middle">
+                            <a href="#" class="stretched-link"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 px-2 py-2">
+                    <div class="card card-banner text-white align-middle">
+                        <img src="img/banner2.png" class="card-img">
+                        <div class="card-img-overlay align-middle">
+                            <h5 class="card-title">Тралл Kobelco SK350 LC-8<br><big>13000Р</big> за сутки</h5>
+                            <div class="card-stars"><img src="img/star1.svg"><img src="img/star1.svg"><img
+                                    src="img/star1.svg"><img src="img/star1.svg"><img src="img/star2.svg"></div>
+                            <a href="#" class="stretched-link"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 px-2 py-2">
+                    <div class="card card-banner text-white align-middle">
+                        <img src="img/banner3.png" class="card-img">
+                        <div class="card-img-overlay align-middle">
+                            <h5 class="card-title">Бульдозер Kobelko SK350 LC-8<br><big>13000Р</big> за сутки</h5>
+                            <div class="card-stars"><img src="img/star1.svg"><img src="img/star1.svg"><img
+                                    src="img/star1.svg"><img src="img/star1.svg"><img src="img/star1.svg"></div>
+                            <a href="#" class="stretched-link"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 px-2 py-2">
+                    <div class="card card-banner text-white align-middle">
+                        <img src="img/banner4.png" class="card-img">
+                        <div class="card-img-overlay align-middle">
+                            <h5 class="card-title">Тралл Kobelko SK350 LC-8<br><big>14000Р</big> за сутки</h5>
+                            <div class="card-stars"><img src="img/star1.svg"><img src="img/star1.svg"><img
+                                    src="img/star1.svg"><img src="img/star2.svg"><img src="img/star2.svg"></div>
+                            <a href="#" class="stretched-link"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 px-2 py-2">
+                    <div class="card card-banner text-white align-middle">
+                        <img src="img/banner5.png" class="card-img">
+                        <div class="card-img-overlay align-middle">
+                            <h5 class="card-title">Бензонасос IVECO TRAKKER<br><big>14000Р</big> за сутки</h5>
+                            <div class="card-stars"><img src="img/star1.svg"><img src="img/star1.svg"><img
+                                    src="img/star1.svg"><img src="img/star1.svg"><img src="img/star2.svg"></div>
+                            <a href="#" class="stretched-link"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 px-2 py-2">
+                    <div class="card card-banner text-white align-middle">
+                        <img src="img/banner6.png" class="card-img">
+                        <div class="card-img-overlay align-middle">
+                            <h5 class="card-title">Манипулятор IVECO TRAKKER<br><big>20000Р</big> за сутки</h5>
+                            <div class="card-stars"><img src="img/star1.svg"><img src="img/star1.svg"><img
+                                    src="img/star1.svg"><img src="img/star1.svg"><img src="img/star1.svg"></div>
+                            <a href="#" class="stretched-link"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="card shadow mb-5 mt-6">
+                <div class="row no-gutters">
+                    <div class="col">
+                        <div class="bg6"></div>
+                        <div class="card-body position-relative">
+                            <h2 class="card-title mb-3 text-warning">Узнайте сколько можно зарабатывать,<br>сдавая
+                                технику в аренду.</h2>
+                            <p class="card-text mb-4 pb-2">Превратите свободную технику в дополнительный доход</p>
+                            <button class="btn btn-primary mb-5" style="width: 13rem;">Узнать подробнее</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row no-gutters pt-5 pb-4 footer">
+                <div class="col pr-1 pr-md-4">Copyright 2019</div>
+                <div class="col-auto pr-1 pr-md-4"><a href="#" class="text-dark">Помощь</a></div>
+                <div class="col-auto pr-1 pr-md-4"><a href="#" class="text-dark">Договор аренды</a></div>
+                <div class="col-auto pr-1 pr-md-4 no-wrap"><a href="#" class="text-dark">Правила использования
+                        Gidteh.ru</a></div>
+                <div class="col text-right">Санкт-Петербург</div>
+            </div>
+
+
+        </div>
+
+        <!-- Подвал -->
+
+
+
+    </div>
+    <script>
+        feather.replace()
+    </script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.15.0/jquery.validate.min.js"></script>
+</body>
+
+</html>
